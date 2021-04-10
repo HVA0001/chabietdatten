@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	scroll-behavior: smooth;
+}
+*{padding: 0;margin: 0}
+#outer{
+	width: 1263px;
+	height: 4750px;
+	background: black;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(to right top, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47);
+	margin: auto;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	background: chocolate;
+	float: left;
+	border-radius: 10%;
+	margin: 20px 0 0 30px;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 45px 80px 0;
+	float: center;
+}
+.menu ul li a{
+	font-family: 'Train One', cursive;
+	font-size: 24px;
+	text-decoration: none;
+	color: aquamarine;
+	border: thin inset chocolate;
+	border-radius: 10%;
+}
+.box1{
+	width: 100%;
+	height: 700px;
+	background: url("images.jpg") no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.box1 h2{
+	padding: 550px 50px 0;
+	color: chocolate;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+}
+.box1 h4{
+	padding: 10px 800px 0 50px;
+	color: aquamarine;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 10px;
+}
+.box2{
+	width: 100%;
+	height: 950px;
+	background-image: linear-gradient(to right top, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47);
+	padding-top: 5px;
+}
+.outerbox1{
+	margin: auto;
+	width: 90%;
+	height: 575px;
+	background: linear-gradient(to left bottom, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47) no-repeat center;
+	border-radius: 2%;
+}
+.box2 h2{
+	padding-top: 50px;
+	font-size: 28px;
+	margin: 175px auto 0;
+	color: chocolate;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+.outerbox2{
+	width: 80%;
+	height: 350px;
+	margin: 50px auto 0;
+}
+.img1{
+	width: 30%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	border-radius: 10%;
+}
+.img2{
+	width: 30%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 45px;
+	float: left;
+	border-radius: 10%;
+}
+.img3{
+	width: 30%;
+	height: 100%;
+	overflow: hidden;
+	float: right;
+	border-radius: 10%;
+}
+.box2 h4{
+	margin: 25px auto 0;
+	color: aquamarine;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+.box3{
+	width: 100%;
+	height: 950px;
+	background-image: linear-gradient(to right top, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47);
+	padding-top: 5px;
+}
+.logo2{
+	width: 150px;
+	height: 150px;
+	background: chocolate;
+	float: left;
+	border-radius: 10%;
+	margin: 120px 0 0 250px;
+}
+.box3 h2{
+	font-size: 36px;
+	margin: 125px 0 0 425px;
+	color: chocolate;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.box3 h4{
+	font-size: 10px;
+	margin: 5px 275px 0 425px;
+	color: aquamarine;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.img4{
+	width: 100%;
+	height: 400px;
+	margin: 100px 190px 0;
+}
+.box4{
+	width: 100%;
+	height: 950px;
+	background-image: linear-gradient(to right top, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47);
+	padding-top: 5px;
+}
+.outerbox3{
+	width: 475px;
+	height: 700px;
+	margin: 125px auto 0 100px;
+	overflow: hidden;
+	float: left;
+	border-radius: 10%;
+}
+.box4 h2{
+	margin: 250px 275px auto 650px;
+	font-size: 36px;
+	color: chocolate;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+.box4 h3{
+	margin: 10px 250px auto 650px;
+	color: aquamarine;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	font-size: 10px;
+}
+.box5{
+	width: 100%;
+	height: 950px;
+	background-image: linear-gradient(to right top, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47);
+	padding-top: 5px;
+}
+.box5 h1{
+	margin: 150px 150px auto;
+	font-size: 36px;
+	color: chocolate;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+.box5 h3{
+	margin: 10px 330px auto;
+	color: aquamarine;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	font-size: 10px;
+}
+.outerbox4{
+	width: 95%;
+	float: right;
+	margin-top: 150px;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background-image: linear-gradient(to right top, #17012a, #190530, #1b0837, #1f0b3e, #220c45, #2a0c48, #320c4b, #3a0c4e, #470a4d, #52094b, #5c0949, #660b47);
+}
+.footer ul{
+	margin-left: 150px;
+	text-align: left;
+	float: left;
+}
+.footer ul li a{
+	text-decoration: none;
+	margin: 10px 50px auto;
+	color: aquamarine;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.outerbox5{
+	width: 150px;
+	height: 150px;
+	background: chocolate;
+	margin-right: 250px;
+	float: right;
+	border-radius: 10%;
+}
